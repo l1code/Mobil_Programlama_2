@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kullanıcı Listesi</string>
+
+    <string name="appKayitEkleme">Kayıt Ekleme</string>
+
+    <string name="userName">Kullanıcı İsmi </string>
+    <string name="userEmail">E-mail </string>
+    <string name="userCity">Şehir </string>
+    <string name="userWebPage">Web </string>
+
+    <string name="tvKayitEkleme">Kayıt Ekleme</string>
+    <string name="tvUserName">Kullanıcı Adı:</string>
+    <string name="tvEmail">Email:</string>
+    <string name="tvCity">Şehir:</string>
+    <string name="tvWebPage">Web:</string>
+    
+</resources>

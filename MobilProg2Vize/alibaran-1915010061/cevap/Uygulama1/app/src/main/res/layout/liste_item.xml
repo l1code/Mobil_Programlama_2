@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:elevation="3dp"
+        app:cardCornerRadius="9dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/userResim"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_person"
+                android:layout_centerHorizontal="true"
+                android:background="?attr/selectableItemBackgroundBorderless">
+                
+            </ImageView>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userResim"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginBottom="10dp"
+                                android:gravity="center_vertical"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:layout_weight="0.4"
+                                    android:text="@string/userName" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="italic"
+                                    android:textSize="12sp"
+                                    android:id="@+id/userName"
+                                    android:layout_weight="0.6"
+                                    android:text="" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:weightSum="1"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.4"
+                                    android:text="@string/userEmail" />
+
+                                <TextView
+                                    android:id="@+id/userEmail"
+                                    android:textStyle="italic"
+                                    android:textSize="12sp"
+                                    android:text=""
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.6" />
+                            </LinearLayout>
+
+
+                    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:weightSum="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"
+                            android:text="@string/userCity" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:id="@+id/userCity"
+                            android:textStyle="italic"
+                            android:textSize="12sp"
+                            android:layout_width="0dp"
+                            android:text="" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"
+                            android:text="@string/userWebPage" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="italic"
+                            android:textSize="12sp"
+                            android:id="@+id/userWebPage"
+                            android:text=""
+                            android:layout_weight="0.6" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

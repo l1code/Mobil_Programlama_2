@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llEkle"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d5d5d5"
+    tools:context=".KayitEklemeActivity">
+
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/border"
+        android:hint="@string/userName"
+        android:textColorHint="#000">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPersonName"
+        android:hint="@string/userEmail"
+        android:background="@drawable/border"
+        android:textColorHint="#000">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etUserCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/border"
+        android:hint="@string/userCity"
+        android:textColorHint="#000">
+
+    </EditText>
+    <EditText
+        android:id="@+id/etWebPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="50dp"
+        android:inputType="textPersonName"
+        android:hint="@string/userWebPage"
+        android:background="@drawable/border"
+        android:textColorHint="#000">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnKayitEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:background="@drawable/border"
+        android:backgroundTint="#2e2e2e"
+        android:text="@string/tvKayitEkleme"
+        >
+
+    </Button>
+
+
+
+
+</LinearLayout>
