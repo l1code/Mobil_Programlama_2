@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OpenCVUygulama1</string>
+
+
+    <string name="btnCanny">Canny Kenar Tespit</string>
+
+   <string-array name="secenekler">
+       <item>Seçiniz</item>
+       <item>Normalizasyon</item>
+       <item>Esikleme</item>
+       <item>Temel</item>
+       <item>Sobel</item>
+   </string-array>
+
+</resources>

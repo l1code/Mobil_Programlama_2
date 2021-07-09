@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">OpenCVUygulama1</string>
+
+
+    <string name="btnCanny">Canny Kenar Tespit</string>
+
+
+
+   <string-array name="secenekler">
+       <item>Seçiniz</item>
+       <item>Derinlik Azalt</item>
+       <item>Vurgula</item>
+       <item>Parlaklik</item>
+       <item>KarEtkisi</item>
+       <item>Dondur</item>
+       <item>Sobel</item>
+       <item>Genişletme</item>
+       <item>Aşındırma</item>
+       <item>Morfolojik</item>
+       <item>Aşındırma V1</item>
+       <item>Genişletme V1</item>
+       <item>Genişletme V2</item>
+       <item>Aşındırma V2</item>
+       <item>Açınım</item>
+       <item>Kapanım</item>
+   </string-array>
+
+</resources>
