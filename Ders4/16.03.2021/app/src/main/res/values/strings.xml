@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Api1</string>
+    <string name="tvIstasyonAdi">Istasyon Adı</string>
+    <string name="tvDoluSlot">Dolu Slot</string>
+    <string name="tvBosSlot">Boş Slot</string>
+    <string name="menuArama">Arama</string>
+</resources>

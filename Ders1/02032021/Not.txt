@@ -1,0 +1,10 @@
+jdk jdk-8u281
+https://www.oracle.com/webapps/redirect/signon?nexturl=https://download.oracle.com/otn/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jdk-8u281-windows-x64.exe
+
+jre jre-8u281 
+https://download.oracle.com/otn/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jre-8u281-windows-x64.tar.gz
+
+iki dosyayı bu adreslerden indirebilirsiniz. 
+obs sisteminde yeterli alan olmadıgı için obsye eklenmemiştir. 
+
+oracle üyelik istemektedir. üye olduktan sonra indirebilirsiniz. 
